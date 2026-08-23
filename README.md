@@ -252,6 +252,20 @@ Open **[http://localhost:3000](http://localhost:3000)** in your browser.
 npm test
 ```
 
+### 6. Production Docker & Render Deployment
+TrustCheck is container-ready with a multi-stage Docker build and Render Blueprint:
+
+- **Build & Run via Docker**:
+  ```bash
+  docker build -t trustcheck .
+  docker run -p 3000:3000 -e BRIGHTDATA_API_KEY="your_key" -e GEMINI_API_KEY="your_key" trustcheck
+  ```
+- **Deploy to Render**:
+  - Push repository to GitHub.
+  - Create a **Web Service** on [Render](https://render.com/) pointing to your repository with runtime **Docker**.
+  - Configure `BRIGHTDATA_API_KEY` and `GEMINI_API_KEY` in Render Environment Variables.
+  - Detailed step-by-step instructions available in [`docs/render-deployment-guide.md`](./docs/render-deployment-guide.md).
+
 ---
 
 ## 9. API Reference
