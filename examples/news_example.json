@@ -1,0 +1,64 @@
+{
+  "id": "chk_news_demo_03",
+  "moduleType": "news",
+  "inputUrl": "https://nature.com/articles/nasa-jwst-ancient-early-galaxy-discovery",
+  "score": 95,
+  "verdict": "Looks Genuine",
+  "explanation": "TrustCheck verified this with a high trust score of 95/100 (Looks Genuine). Multiple independent wire/major outlets (reuters.com, bbc.com, nature.com) corroborate reporting on this subject. Furthermore, publisher domain (nature.com) is recognized on verified global news directories.",
+  "signals": [
+    {
+      "name": "fact_check_match",
+      "direction": "positive",
+      "strength": 0.7,
+      "description": "No prior debunks found across major fact-checking organizations (Snopes, PolitiFact, FactCheck.org).",
+      "category": "Fact-Check Records",
+      "weight": 0.35
+    },
+    {
+      "name": "corroboration",
+      "direction": "positive",
+      "strength": 0.95,
+      "description": "Multiple independent wire/major outlets (reuters.com, bbc.com, nature.com) corroborate reporting on this subject.",
+      "category": "Corroboration",
+      "weight": 0.40
+    },
+    {
+      "name": "source_credibility",
+      "direction": "positive",
+      "strength": 0.95,
+      "description": "Publisher domain (nature.com) is recognized on verified global news and peer-reviewed press allowlist.",
+      "category": "Source Authority",
+      "weight": 0.25
+    }
+  ],
+  "rawData": {
+    "collector_id": "c_trustcheck_news_v1",
+    "headline": "NASA James Webb Space Telescope Discovers Ancient Galaxy from Dawn of Cosmos",
+    "article_body": "Astronomers using the James Webb Space Telescope have identified a remarkably bright galaxy that formed just 300 million years after the Big Bang, expanding our understanding of early cosmic evolution.",
+    "author_name": "Dr. Rebecca Thorne",
+    "publish_date": "2026-08-19",
+    "source_domain": "nature.com",
+    "article_url": "https://nature.com/articles/nasa-jwst-ancient-early-galaxy-discovery",
+    "is_pasted_claim": false,
+    "corroborating_sources": [
+      {
+        "title": "NASA Webb Telescope Identifies Earliest Known Galaxy",
+        "domain": "reuters.com",
+        "url": "https://reuters.com/science/webb-galaxy",
+        "isReputable": true
+      },
+      {
+        "title": "Ancient Cosmic Structures Unveiled by JWST",
+        "domain": "bbc.com",
+        "url": "https://bbc.com/news/science-space",
+        "isReputable": true
+      }
+    ],
+    "fact_check_matches": [],
+    "domain_credibility": {
+      "domain": "nature.com",
+      "isReputable": true
+    }
+  },
+  "createdAt": "2026-08-20T17:20:00.000Z"
+}
