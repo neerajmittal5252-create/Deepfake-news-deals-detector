@@ -1,0 +1,20 @@
+{
+  "listing": {
+    "price_deviation": 0.35,
+    "seller_pattern": 0.25,
+    "red_flag_phrases": 0.20,
+    "data_completeness": 0.10,
+    "account_age_proxy": 0.10
+  },
+  "offer": {
+    "brand_mismatch": 0.35,
+    "math_inconsistency": 0.30,
+    "pressure_language": 0.20,
+    "terms_vagueness": 0.15
+  },
+  "news": {
+    "corroboration": 0.40,
+    "fact_check_match": 0.35,
+    "source_credibility": 0.25
+  }
+}
