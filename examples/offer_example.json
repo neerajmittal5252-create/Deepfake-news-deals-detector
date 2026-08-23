@@ -1,0 +1,56 @@
+{
+  "id": "chk_offer_demo_02",
+  "moduleType": "offer",
+  "inputUrl": "https://secret-deals-promo.xyz/offer/nike-air-jordan-99-off-deal",
+  "score": 14,
+  "verdict": "High Risk",
+  "explanation": "TrustCheck assigned a High Risk score of 14/100 due to multiple critical red flags. Domain mismatch: Offer domain does not match Nike's verified official domain (nike.com). Additionally, extreme discount claim (98% off) combined with high-pressure countdown language. Phishing and credential harvesting risk detected.",
+  "signals": [
+    {
+      "name": "brand_mismatch",
+      "direction": "negative",
+      "strength": 0.85,
+      "description": "Domain mismatch: Offer domain does not match Nike's verified official domain (nike.com). High phishing risk.",
+      "category": "Brand Authenticity",
+      "weight": 0.35
+    },
+    {
+      "name": "math_inconsistency",
+      "direction": "negative",
+      "strength": 0.9,
+      "description": "Extreme discount claim (98% off). Unrealistic price cuts are standard tactics in counterfeit/clearing scams.",
+      "category": "Pricing Integrity",
+      "weight": 0.30
+    },
+    {
+      "name": "pressure_language",
+      "direction": "negative",
+      "strength": 0.95,
+      "description": "High-pressure urgency language detected: \"only next 10 minutes\", \"limited to first 3 people\", \"enter credit card for age verification\".",
+      "category": "Psychological Triggers",
+      "weight": 0.20
+    },
+    {
+      "name": "terms_vagueness",
+      "direction": "negative",
+      "strength": 0.7,
+      "description": "Missing Terms & Conditions or return policy disclosure.",
+      "category": "Legal & Policy",
+      "weight": 0.15
+    }
+  ],
+  "rawData": {
+    "collector_id": "c_trustcheck_offer_v1",
+    "offer_title": "Nike Air Jordan 1 Retro High OG - 99% Flash Clearance",
+    "brand_name": "Nike",
+    "original_price": 200,
+    "discounted_price": 5,
+    "discount_percentage": 99,
+    "terms_and_conditions": "Only next 10 minutes! Limited to first 3 people. No refund under any condition. Enter credit card for age verification.",
+    "expiry_date": "2026-08-20T23:59:00Z",
+    "page_url": "https://secret-deals-promo.xyz/offer/nike-air-jordan-99-off-deal",
+    "brand_domain": "nike.com",
+    "official_domain_match": false
+  },
+  "createdAt": "2026-08-20T17:18:00.000Z"
+}
