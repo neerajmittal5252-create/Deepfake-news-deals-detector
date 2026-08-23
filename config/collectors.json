@@ -1,0 +1,12 @@
+{
+  "listing_module": {
+    "listing_collector": "c_trustcheck_listing_v1",
+    "seller_collector": "c_trustcheck_seller_v1"
+  },
+  "offer_module": {
+    "offer_collector": "c_trustcheck_offer_v1"
+  },
+  "news_module": {
+    "news_collector": "c_trustcheck_news_v1"
+  }
+}
