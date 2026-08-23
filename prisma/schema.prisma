@@ -1,0 +1,20 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Check {
+  id          String   @id @default(cuid())
+  moduleType  String   // "listing" | "offer" | "news"
+  inputUrl    String
+  score       Int
+  verdict     String
+  signalsJson String   // serialized Signal[]
+  rawDataJson String   // serialized scraped data
+  explanation String
+  createdAt   DateTime @default(now())
+}
